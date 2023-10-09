@@ -11,7 +11,7 @@ console.log("arkho")
 
 let name = "Arkho"
 let age = 23
-let isloggedIn = false 
+let isloggedIn = false
 
 
 
