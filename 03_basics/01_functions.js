@@ -40,10 +40,37 @@ function loginUserMassage(username = "Surjo"){
 //  console.log(loginUserMassage("Arkho"));
 console.log(loginUserMassage("Arkho"));
 
+function calculateCartprice(val1,val2,...num1){
+    return num1
+}
+
+// console.log(calculateCartprice(200, 400, 600, 20000))
+
+const user = {
+    username : "Arkho",
+    price : 199,
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
 
 
+// handleObject(user);
 
+handleObject({
+    username: "Surjo",
+    price :399,
+})
+//Array_value add
 
+const MyNewArray = [200, 400, 100,]
 
+function returnSecondValue(getArray){
+    return getArray[2]
+}
 
+//console.log(returnSecondValue(MyNewArray));
+
+console.log(returnSecondValue([200, 400, 800]))
 
