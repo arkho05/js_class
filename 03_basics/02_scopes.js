@@ -21,18 +21,18 @@ console.log("Inner :", a);
 // console.log(c);
 
 
-function one() {
-    const username = "Arkho"
+// function one() {
+//     const username = "Arkho"
     
-    function two (){
-        const website = "youtybe"
-        console.log(username);
-    }
-    // console.log(website);
+//     function two (){
+//         const website = "youtybe"
+//         console.log(username);
+//     }
+//     // console.log(website);
 
-    two()
+//     two()
 
-}
+// }
 //  one()
 
 if(true) {
