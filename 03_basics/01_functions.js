@@ -8,6 +8,7 @@ function sayMyName(){
     
 }
 
+
 //sayMyName()
 
 function addtwoNumbers(number1, number2)//parameter
@@ -73,3 +74,6 @@ function returnSecondValue(getArray){
 //console.log(returnSecondValue(MyNewArray));
 
 console.log(returnSecondValue([200, 400, 800]))
+
+
+
