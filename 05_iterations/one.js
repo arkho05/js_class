@@ -145,6 +145,7 @@ for (let i = 0; i <numbers.length; i++) {
 console.log(max); 
 
 
+
 for (let i = 0; i < numbers.length; i++) {
     if(numbers[i] < min) {
         min = numbers[i];
@@ -157,6 +158,62 @@ console.log(min);
 
 
 
+/// Do.... while loop 
+
+
+let x = 0;
+let i = 0;
+
+
+do {
+    x = x+i;
+    console.log(x);
+    i++;
+} while (i <5);
+
+
+const items = ['apple', 'banana', 'cherry'];
+
+for (const item of items ) {
+    console.log(item);
+}
+
+const shoppingCart = { banana : 2, apple : 5, cherry: 0 };
+
+for (const fruit in shoppingCart) {
+    console.log(shoppingCart[fruit]);
+}
+
+
+// reverse Loop
+
+const itemPart = ['apricot', 'banana', 'cherry'];
+
+for (let i = itemPart.length -1; i>= 0; i -= 1) {
+    console.log(`${i}.${itemPart[i]}`);
+}
+
+const fish = ['salmon', 'clown', 'whiting'];
+
+for (let i = 0; i < fish.length; i++) {
+    console.log(fish[i]);
+}
+
+
+// const objectk = {
+//     name : 'Arkho',
+//     age : 10,
+// };
+
+
+// const myEntries = object.entries(objectk);
+
+// console.log(myEntries);
+
+for (let step = 0 ; step <
+    5; step++) {
+    console.log("Walking east one step")
+};
 
 
 
