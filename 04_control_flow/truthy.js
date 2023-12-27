@@ -1,7 +1,7 @@
 //node 04_control_flow/truthy.js
 
 
-const userEmail = "a@arkho.ai";
+const userEmail = "ar@arkho.ai";
 
 if (userEmail) {
     console.log("Get user email");
