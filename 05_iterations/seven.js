@@ -47,8 +47,35 @@ const evens = numbers.filter(item => item % 2 === 0);
 // // console.log(studenGrades);
 
 
-const num = [1, 2, 3, 4, 5, 6 ]
+// const num = [1, 2, 3, 4, 5, 6 ]
 
-const sum = num.reduce( function (result, item) {return result + item} );
+// const sum = num.reduce( function (result, item) {return result + item} );
 
-console.log(sum);
+// console.log(sum);
+
+// const pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
+
+// const  petCounts = pets.reduce(function(obj, pet) {
+//     if( !obj [pet]) {
+//         obj [pet] = 1;
+//     }else{
+//         obj [pet] ++;
+//     }
+//     return obj;
+// })
+
+// console.log(petCounts);
+
+
+const pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
+
+const petCounts = pets.reduce(function(obj, pet){
+    if (!obj[pet]) {
+        obj[pet] = 1;
+    } else {
+        obj[pet]++;
+    }
+    return obj;
+}, {});
+
+console.log(petCounts); 
