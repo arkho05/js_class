@@ -78,4 +78,59 @@ const petCounts = pets.reduce(function(obj, pet){
     return obj;
 }, {});
 
-console.log(petCounts); 
+
+// const employees = [
+//     { name: 'David Carlson', age: 30 },
+//     { name: 'John Cena', age: 34 },
+//     { name: 'Mike Sheridan', age: 25 },
+//     { name: 'John Carte', age: 50 }
+//   ];
+  
+//   const filtered = [];
+  
+//   for(let i = 0; i < employees.length; i++) {
+//    if(employees[i].name.indexOf('John') > -1) {
+//      filtered.push(employees[i]);
+//    }
+//   }
+
+
+// const filtered = employees.filter(function (employee) {
+//     return employee.name.indexOf('John') > -1;
+//   });
+  
+//   console.log(filtered); // [ { name: "John Cena", age: 34 }, { name: "John Carte", age: 50 }]
+
+
+
+// const fanBases = [
+//     {name: 'Arkho Deb', age: 24},
+//     {name: 'Rony Deb', age: 25},
+//     {name: 'Topan Dhar', age: 24},
+//     {name: 'Liton Don', age: 30},
+// ]
+  
+// const filtereded = fanBases.filter( function (item) {
+//     return item.age.indexof('24') > -1;
+// });
+
+// console.log(filtereded);
+
+
+
+const arrNumbers = [10, 20, 30, 40, 50, 60, 75]
+
+const ownNum = arrNumbers.filter( function (arrNumber){
+    return arrNumber >= 30;
+});
+
+// console.log(ownNum);
+
+
+const checkedState = [true, false, false, true, true];
+
+const onlyTrueValues = checkedState.filter(function(value) {
+  return value === true;
+});
+
+console.log(onlyTrueValues); // [true, true, true]
