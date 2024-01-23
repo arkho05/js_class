@@ -68,6 +68,4 @@ form.addEventListener('submit', function (e) {
     `Over Weight : <span>${bmi}</span>`
   }
 });
-
-
 ```
