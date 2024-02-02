@@ -1,4 +1,4 @@
-//node 05_iterations/six.js
+//node js_class/05_iterations/six.js
 
 const coding = [ "js", "ruby" , "java", "python", "cpp"]
 
